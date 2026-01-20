@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Valen Munsil Portfolio</title>
+
+    <link rel="stylesheet" href="../../public/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600&family=Rajdhani:wght@400;600&family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="bg"></div>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="hero-overlay">
+        <h1 class="hero-title">Valen Munsil</h1>
+        <div class="hero-buttons">
+          <a href="#projects" class="hero-btn">Projects</a>
+          <a href="#about" class="hero-btn">About</a>
+          <a href="#experience" class="hero-btn">Experience</a>
+          <a href="#contact" class="hero-btn">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="nav-inner">
+        <h1 class="nav-title">[Valen Munsil]</h1>
+        <div class="nav-links">
+          <a href="#hero">Home</a>
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- SIDE PULL TAB -->
+    <div class="side-tab">
+      <div class="side-panel">
+        <div class="tab-arrow">&#9654;</div>
+        <a href="#project3" class="panel-card" data-index="0">
+          <span class="panel-title">Ships and Lasers</span>
+          <img
+            class="panel-logo"
+            src="../../app/data/asteriods-Logo.png"
+            alt="Project 3 Logo"
+          />
+        </a>
+        <a href="#project1" class="panel-card" data-index="1">
+          <span class="panel-title">WaySync</span>
+          <img
+            class="panel-logo"
+            src="../../app/data/WaySync-Logo.png"
+            alt="WaySync Logo"
+          />
+        </a>
+        <a href="#project2" class="panel-card" data-index="2">
+          <span class="panel-title">Sentia-6</span>
+          <img
+            class="panel-logo"
+            src="../../app/data/sentia-6-Logo.png"
+            alt="Sentia-6 Logo"
+          />
+        </a>
+        <a href="#project4" class="panel-card" data-index="3">
+          <span class="panel-title">GILO AI</span>
+          <img
+            class="panel-logo"
+            src="../../app/data/GILOAI-Logo.png"
+            alt="Project 4 Logo"
+          />
+        </a>
+        <a href="#project5" class="panel-card" data-index="4">
+          <span class="panel-title">Unreal Castle</span>
+          <img
+            class="panel-logo"
+            src="../../app/data/castle-logo.png"
+            alt="Project 5 Logo"
+          />
+        </a>
+      </div>
+    </div>
+
+    <!-- MAIN CONTENT CONTAINER -->
+    <main class="content-shell">
+      <!-- PROJECTS SECTION -->
+      <section id="projects" class="section section-hero">
+        <h2 class="section-title" id="projects-title">[Projects]</h2>
+        <br /><br />
+        <div class="carousel">
+          <!-- LOGO -->
+          <div class="card-bg-logo"></div>
+
+          <!-- FAR LEFT CARD -->
+          <div class="card far left">
+            <div class="card-title">
+              <div class="title-main">Ships and Lasers</div>
+              <div class="title-sub">Personal Project</div>
+            </div>
+
+            <div class="image">
+              <video
+                src="../../app/data/ships-and-lasers-trailer.mp4"
+                muted
+                loop
+              ></video>
+            </div>
+
+            <div class="card-desc">
+              Developed a pixel-neon remake of the classic retro game Asteroids
+              using Unity and C#, preserving all original mechanics while adding
+              new features such as time distortion and expanded weapon systems.
+              <br /><br />
+              Completed within a two-month development cycle, the project went
+              through multiple rounds of playtesting and was ultimately awarded
+              Best Game out of 40 participants.
+            </div>
+          </div>
+
+          <!-- LEFT CARD -->
+          <div class="card mid left">
+            <div class="card-title">
+              <div class="title-main">WaySync</div>
+              <div class="title-sub">BCIT Project</div>
+            </div>
+
+            <div class="image">
+              <img src="../../app/data/WaySync-1.png" alt="WaySync Main Page" />
+              <img src="../../app/data/WaySync-2.png" alt="WaySync Main Page" />
+            </div>
+
+            <div class="card-desc">
+              A carpooling web app with real-time location tracking and
+              notifications, allowing users to coordinate commutes and interact
+              through a social friends/community system.
+              <br /><br />
+              The backend, built entirely in Firebase incorperated with
+              MapBox-GL and JavaScript, enables live messaging and an
+              interactive map. Overcoming communication and language barriers, I
+              took initative to be team lead and led the team to successfully
+              deliver a project with exceptional features and high-quality
+              functionality.
+            </div>
+          </div>
+
+          <!-- CENTER CARD -->
+          <div class="card center">
+            <div class="card-title">
+              <div class="title-main">Sentia-6</div>
+              <div class="title-sub">Personal Project</div>
+            </div>
+
+            <div class="image">
+              <video
+                src="../../app/data/Sentia-6-Trailer.mp4"
+                muted
+                loop
+              ></video>
+            </div>
+
+            <div class="card-desc">
+              Sci-fi horror puzzle game set on an abandoned space station
+              researching a black hole. Developed in Unity with C#, playtested
+              across multiple student groups and refined on their feedback.
+              Achieved a 100% grade and recognized with a game award for
+              excellence
+              <br /><br />
+              Developed over four months during my final year of high school,
+              the project continued post-graduation to expand gameplay, fix
+              bugs, and add new levels and features.
+            </div>
+          </div>
+
+          <!-- RIGHT CARD -->
+          <div class="card mid right">
+            <div class="card-title">
+              <div class="title-main">GILO-AI</div>
+              <div class="title-sub">Apple Academic Contract</div>
+            </div>
+
+            <div class="image">
+              <img src="../../app/data/giloBG.png" alt="Gilo image" />
+            </div>
+
+            <div class="card-desc">
+              Built a conversational AI with a custom sarcastic personality and
+              full speech-to-text and text-to-speech capabilities, developed in
+              Python by integrating multiple APIs into a unified interface.
+              <br /><br />
+              Created as my Grade 12 capstone project, it was later recognized
+              by Apple, who contracted me to continue development using their
+              technical resources and support.
+            </div>
+          </div>
+
+          <!-- FAR RIGHT CARD -->
+          <div class="card far right">
+            <div class="card-title">
+              <div class="title-main">Unreal 5 Map</div>
+              <div class="title-sub">Game Design Project</div>
+            </div>
+
+            <div class="image">
+              <video
+                src="../../app/data/Game-Design-Trailer.mp4"
+                muted
+                loop
+              ></video>
+            </div>
+
+            <div class="card-desc">
+              Designed and developed an Unreal Engine 5 project showcasing my
+              strengths in level and gameplay design. The project was presented
+              to multiple high school classes and instructors and recognized as
+              exemplary work.
+              <br /><br />
+              Completed within a two-month development cycle, it demonstrated my
+              ability to create detailed, polished environments while working
+              effectively under tight deadlines.
+            </div>
+          </div>
+        </div>
+
+        <div class="dots">
+          <span class="dot d0"></span>
+          <span class="dot d1"></span>
+          <span class="dot d2"></span>
+          <span class="dot d1"></span>
+          <span class="dot d0"></span>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about" class="section about-section">
+        <div class="about-container">
+          <div class="about-info">
+            <h2 class="section-title">[About]</h2>
+            <p class="section-text">
+              <img
+                src="../../app/data/your-image.png"
+                alt="Valen Munsil"
+                class="about-image-float"
+              />
+              BCIT Computer Systems Technology student and aspiring Canadian
+              game and software developer specializing in Unity (C#) and Unreal
+              Engine 4/5 (Blueprints).
+              <br />
+              <br />
+              Began game development at age thirteen and completed progressively
+              advanced coursework in game programming, game design, and computer
+              science, earning near-perfect grades across all computer-related
+              courses. Developed multiple original game projects, including
+              Sentia-6, a large-scale game project which integrated both my game
+              design and game programming classes. Designed GILO, a
+              conversational AI developed as my Grade 12 capstone, designed with
+              Python and utilizes multiple APIs which ended up gaining Apple's
+              attention upon the project's completion.
+              <br />
+              <br />
+              Through university studies, became proficient in Java, HTML, CSS,
+              and JavaScript, and I am currently expanding systems and software
+              engineering expertise through BCIT’s CST program with the goal of
+              pursuing a Bachelor of Computer Science in game development.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE SECTION -->
+      <section id="experience" class="section experience-section">
+        <h2 class="section-title">[Experience]</h2>
+
+        <div class="experience-cards">
+          <!-- Work Experience -->
+          <div class="exp-card">
+            <div class="card-title">
+              <div class="title-main">Work</div>
+              <div class="title-sub">Experience</div>
+            </div>
+            <div class="card-desc">
+              Game Developer – Sentia-6 [Persona]<br /><br />
+              Team Lead – WaySync [BCIT]<br /><br />
+              AI Developer – GILO AI [Apple Academic Contract]<br /><br />
+              Client Service Rep - Parkour [Elements Parkour]
+            </div>
+          </div>
+
+          <!-- Technical Skills -->
+          <div class="exp-card">
+            <div class="card-title">
+              <div class="title-main">Technical</div>
+              <div class="title-sub">Skills</div>
+            </div>
+            <div class="card-desc">
+              C#, Java, Python, Blueprint<br />
+              JavaScript, HTML, CSS<br /><br />
+
+              Unreal Engine 4/5, Unity<br />
+              Firebase, MySQL <br /><br />
+
+              Git, GitHub<br />
+              Slack, Figma, Trello <br /><br />
+
+              Mapbox-GL, Node.js<br /><br />
+
+              Game Systems & UI/UX <br />
+              Rapid Protoytping, Gameplay Protoytping <br />
+            </div>
+          </div>
+
+          <!-- Education -->
+          <div class="exp-card">
+            <div class="card-title">
+              <div class="title-main">Education</div>
+              <div class="title-sub">Background</div>
+            </div>
+            <div class="card-desc">
+              BCIT – Computer Systems Technology<br />
+              2025 - present | GPA: 89%<br /><br />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact" class="section contact-section">
+        <div class="terminal-card">
+          <div class="card-title">
+            <h2 class="title-main">Contact</h2>
+            <p class="title-sub">Get in touch</p>
+          </div>
+          <div class="terminal-text">
+            <span id="booting">> booting...</span>
+            <span class="contact-line fade-in delay-1"
+              >>Phone: (1+) 778-319-3576</span
+            >
+            <span class="contact-line fade-in delay-2"
+              >>Email: <a href="vmunsil@my.bcit.ca">vmunsil@my.bcit.ca</a></span
+            >
+            <span class="contact-line fade-in delay-3"
+              >>GitHub:
+              <a href="https://github.com/ValenMunsil" target="_blank"
+                >GitHub</a
+              ></span
+            >
+            <span class="contact-line fade-in delay-4"
+              >>LinkedIn:
+              <a
+                href="https://www.linkedin.com/in/valen-munsil-a230493a5/"
+                target="_blank"
+                >LinkedIn</a
+              ></span
+            >
+            <span class="contact-line fade-in delay-5"
+              >>Resume:
+              <a href="../../app/data/Resume 2026.pdf" target="_blank"
+                >Resume</a
+              ></span
+            >
+            <span class="cursor">|</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="../../public/js/main.js"></script>
+  </body>
+</html>
